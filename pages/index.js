@@ -10,9 +10,8 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <Head>
-        <title>Paige Nelmes | Full Stack Developer
-        </title>
-        </Head>
+        <title>Paige Nelmes | Full Stack Developer</title>
+      </Head>
       <div>
         <p>
           Hi, my name is Paige. This is my portfolio!
