@@ -91,8 +91,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-[#AAB2FF] my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                I am a Full Stack Developer with a background in Graphic Design.
-                Nice to meet you!
+                Paige Nelmes | Full Stack Developer
               </p>
             </div>
           </div>
@@ -114,7 +113,7 @@ const Navbar = () => {
                 <li className="py-4 text-med">Contact</li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-20">
               <p className="uppercase tracking-widest text-[#5C6CFF]">
                 Get in Touch
               </p>
