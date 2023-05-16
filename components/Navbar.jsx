@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-35 shadow-md z-[100]">
+    <div className="fixed w-full h-35 shadow-md z-[100] bg-white">
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 mt-3 mb-3">
         <Image
           src="/../public/pn-logo-500x338.png"
