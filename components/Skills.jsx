@@ -18,7 +18,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/javascript-logo.png"
-                  alt="/"
+                  alt="JavaScript"
                   width="48"
                   height="48"
                 />
@@ -35,7 +35,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/html-logo.png"
-                  alt="/"
+                  alt="HTML"
                   width="48"
                   height="48"
                 />
@@ -52,7 +52,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/css-logo.png"
-                  alt="/"
+                  alt="CSS"
                   width="40"
                   height="40"
                 />
@@ -69,7 +69,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/ruby-logo.png"
-                  alt="/"
+                  alt="Ruby"
                   width="48"
                   height="48"
                 />
@@ -86,7 +86,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/sql-logo.png"
-                  alt="/"
+                  alt="SQL"
                   width="64"
                   height="64"
                 />
@@ -109,7 +109,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/react-logo.png"
-                  alt="/"
+                  alt="React"
                   width="48"
                   height="48"
                 />
@@ -125,7 +125,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/nextjs-logo.png"
-                  alt="/"
+                  alt="NextJS"
                   width="64"
                   height="64"
                 />
@@ -141,7 +141,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/node-js-logo.png"
-                  alt="/"
+                  alt="NodeJS"
                   width="64"
                   height="64"
                 />
@@ -157,7 +157,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/tailwind-logo.png"
-                  alt="/"
+                  alt="Tailwind CSS"
                   width="48"
                   height="48"
                 />
@@ -173,7 +173,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/mui-logo.png"
-                  alt="/"
+                  alt="MUI"
                   width="48"
                   height="48"
                 />
@@ -189,7 +189,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/rails-logo.png"
-                  alt="/"
+                  alt="Rails"
                   width="64"
                   height="64"
                 />
@@ -205,7 +205,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/express-logo.png"
-                  alt="/"
+                  alt="Express"
                   width="100"
                   height="100"
                 />
@@ -221,7 +221,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/ajax-logo.png"
-                  alt="/"
+                  alt="Ajax"
                   width="64"
                   height="64"
                 />
@@ -237,7 +237,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/ejs-logo.png"
-                  alt="/"
+                  alt="EJS"
                   width="34"
                   height="34"
                 />
@@ -253,7 +253,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/axios-logo.png"
-                  alt="/"
+                  alt="Axios"
                   width="100"
                   height="100"
                 />
@@ -269,7 +269,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/jquery-logo.png"
-                  alt="/"
+                  alt="JQuery"
                   width="90"
                   height="90"
                 />
@@ -292,7 +292,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/git-logo.png"
-                  alt="/"
+                  alt="Git"
                   width="64"
                   height="64"
                 />
@@ -302,13 +302,13 @@ export const Skills = () => {
               </div>
             </div>
           </div>
-            {/* POSTGRESQL SKILL */}
-            <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          {/* POSTGRESQL SKILL */}
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="/../public/skills/postgresql-logo.png"
-                  alt="/"
+                  alt="PostgreSQL"
                   width="48"
                   height="48"
                 />
@@ -319,10 +319,8 @@ export const Skills = () => {
             </div>
           </div>
         </div>
-          {/* SKILL SUBHEADER: TESTING */}
-          <p className="uppercase tracking-widest text-[#5C6CFF] py-6">
-          Testing
-        </p>
+        {/* SKILL SUBHEADER: TESTING */}
+        <p className="uppercase tracking-widest text-[#5C6CFF] py-6">Testing</p>
         {/* GRID SETTINGS FOR TESTING */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* JEST SKILL */}
@@ -331,7 +329,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/jest-logo.png"
-                  alt="/"
+                  alt="Jest"
                   width="55"
                   height="55"
                 />
@@ -341,14 +339,14 @@ export const Skills = () => {
               </div>
             </div>
           </div>
-              
-              {/* CYPRESS SKILL */}
-              <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+
+          {/* CYPRESS SKILL */}
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="/../public/skills/cypress-logo.png"
-                  alt="/"
+                  alt="Cypress"
                   width="90"
                   height="90"
                 />
@@ -364,7 +362,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/storybook-logo.png"
-                  alt="/"
+                  alt="Storybook"
                   width="100"
                   height="100"
                 />
@@ -387,7 +385,7 @@ export const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/skills/photoshop-logo.png"
-                  alt="/"
+                  alt="Photoshop"
                   width="48"
                   height="48"
                 />
@@ -397,13 +395,13 @@ export const Skills = () => {
               </div>
             </div>
           </div>
-        {/* ILLUSTRATOR SKILL */}
-        <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          {/* ILLUSTRATOR SKILL */}
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="/../public/skills/illustator-logo.png"
-                  alt="/"
+                  alt="Illustrator"
                   width="48"
                   height="48"
                 />
@@ -414,12 +412,12 @@ export const Skills = () => {
             </div>
           </div>
           {/* INDESIGN SKILL */}
-        <div className="p-8 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="/../public/skills/indesign-logo.png"
-                  alt="/"
+                  alt="InDesign"
                   width="48"
                   height="48"
                 />

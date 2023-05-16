@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Main from '@/components/Main';
 import About from '@/components/About';
 import { Skills } from '@/components/Skills';
+import Projects from '@/components/Projects';
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar';
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Main></Main>
       <About></About>
       <Skills></Skills>
+      <Projects></Projects>
     </div>
   )
 }

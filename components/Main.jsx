@@ -17,7 +17,9 @@ function Main() {
               Paige
             </span>
           </h1>
-          <h1 className="py-4 text-[#363537]">I&apos;m a Full Stack Developer</h1>
+          <h1 className="py-4 text-[#363537]">
+            I&apos;m a Full Stack Developer
+          </h1>
           <p className="py-2 text-[#5C5A5E] max-w-[70%] m-auto">
             I am a Lighthouse Labs graduate with a background in Graphic Design.
             A detail-oriented problem solver who specializes in visual
