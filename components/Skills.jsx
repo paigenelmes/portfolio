@@ -247,8 +247,8 @@ export const Skills = () => {
               </div>
             </div>
           </div>
-             {/* AXIOS SKILL */}
-             <div className="p-8 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+          {/* AXIOS SKILL */}
+          <div className="p-10 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -264,7 +264,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* JQUERY SKILL */}
-          <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          <div className="p-10 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -276,6 +276,45 @@ export const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className="uppercase">JQuery</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SKILL SUBHEADER: SYSTEMS/DATABASES */}
+        <p className="uppercase tracking-widest text-[#5C6CFF] py-6">
+          Systems &amp; Databases
+        </p>
+        {/* GRID SETTINGS FOR SYSTEMS/DATABASES */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* GIT SKILL */}
+          <div className="p-10 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/git-logo.png"
+                  alt="/"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Git</h3>
+              </div>
+            </div>
+          </div>
+            {/* POSTGRESQL SKILL */}
+            <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/postgresql-logo.png"
+                  alt="/"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">PostgreSQL</h3>
               </div>
             </div>
           </div>
