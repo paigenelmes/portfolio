@@ -319,6 +319,62 @@ export const Skills = () => {
             </div>
           </div>
         </div>
+          {/* SKILL SUBHEADER: TESTING */}
+          <p className="uppercase tracking-widest text-[#5C6CFF] py-6">
+          Testing
+        </p>
+        {/* GRID SETTINGS FOR TESTING */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* JEST SKILL */}
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/jest-logo.png"
+                  alt="/"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Jest</h3>
+              </div>
+            </div>
+          </div>
+              
+              {/* CYPRESS SKILL */}
+              <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/cypress-logo.png"
+                  alt="/"
+                  width="90"
+                  height="90"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Cypress</h3>
+              </div>
+            </div>
+          </div>
+          {/* STORYBOOK SKILL */}
+          <div className="p-11 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/storybook-logo.png"
+                  alt="/"
+                  width="100"
+                  height="100"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Storybook</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
