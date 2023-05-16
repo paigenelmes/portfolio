@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const ProjectItem = ({title, backgroundImage, projectURL}) => {
+const ProjectItem = ({title, backgroundImage, projectURL, description, stack}) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-md shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF]">
     {/* PROJECT */}
@@ -19,11 +19,10 @@ const ProjectItem = ({title, backgroundImage, projectURL}) => {
         {title}
       </h3>
       <p className="pb-4 pt-2 text-white text-center">
-        Sifter is a recipe HTML parser that returns a formatted recipe
-        card from a user-provided URL.
+        {description}
       </p>
       <p className="pb-4 pt-2 text-white text-center">
-      <strong>Tech stack:</strong> React, NextJS, MUI, Supabase, Vercel
+        {stack}
       </p>
       <Link href={projectURL}>
         <p className="text-center py-3 rounded-lg bg-white text-[#363537] font-bold text-lg cursor-pointer">

@@ -20,24 +20,33 @@ const Projects = () => {
             title="Sifter"
             backgroundImage={sifterImage}
             projectURL="https://lighthouse-sifter.vercel.app/login"
+            description="Sifter is a recipe HTML parser that returns a formatted recipe
+            card from a user-provided URL."
+            stack="Tech stack: React, NextJS, MUI, Supabase, Vercel"
           ></ProjectItem>
               {/* SCHEDULER PROJECT */}
               <ProjectItem
               title="Scheduler"
               backgroundImage={schedulerImage}
               projectURL="https://github.com/paigenelmes/scheduler"
+              description="Scheduler is a single-page app that allows users to book interviews."
+              stack="Tech stack: React, Axios, Storybook, Jest, Cypress"
             ></ProjectItem>
           {/* MYVAULT PROJECT...NOTE: FORK & UPDATE GITHUB URL LATER */}
           <ProjectItem
             title="MyVault"
             backgroundImage={myVaultImage}
             projectURL="https://github.com/alricf/node-skeleton"
+            description="MyVault is a password manager that organizes all your passwords and keeps your sensitive info safe."
+            stack="Tech Stack: JS, HTML, CSS, Sass, JSON, Bootstrap, PostgreSQL, Express, jQuery"
           ></ProjectItem>
           {/* TWEETER PROJECT */}
           <ProjectItem
             title="Tweeter"
             backgroundImage={tweeterImage}
             projectURL="https://github.com/paigenelmes/tweeter"
+            description="Tweeter is a simple, single-page Twitter clone with a responsive layout."
+            stack="Tech Stack: HTML, CSS, JS, jQuery, Ajax"
           ></ProjectItem>
         </div>
       </div>
