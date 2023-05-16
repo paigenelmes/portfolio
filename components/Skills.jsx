@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Skills = () => {
   return (
-    <div className="w-full lg:h-screen p-2">
+    <div className="w-full lg:h-auto p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="py-4">Skills</h2>
         {/* SKILL SUBHEADER: LANGUAGES */}
@@ -104,7 +104,7 @@ export const Skills = () => {
         {/* GRID SETTINGS FOR LIBRARIES/FRAMEWORKS */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* REACT SKILL */}
-          <div className="p-8 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+          <div className="p-9 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -120,7 +120,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* NEXTJS SKILL */}
-          <div className="p-10 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          <div className="p-11 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -136,7 +136,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* NODEJS SKILL */}
-          <div className="p-8 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
+          <div className="p-9 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -152,7 +152,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* TAILWIND SKILL */}
-          <div className="p-7 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -168,7 +168,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* MUI SKILL */}
-          <div className="p-7 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -184,7 +184,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* RAILS SKILL */}
-          <div className="p-9 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
+          <div className="p-10 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -200,7 +200,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* EXPRESS SKILL */}
-          <div className="p-8 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+          <div className="p-9 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -216,7 +216,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* AJAX SKILL */}
-          <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          <div className="p-9 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -232,7 +232,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* EJS SKILL */}
-          <div className="p-8 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
+          <div className="p-9 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -264,7 +264,7 @@ export const Skills = () => {
             </div>
           </div>
           {/* JQUERY SKILL */}
-          <div className="p-10 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+          <div className="p-11 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -332,8 +332,8 @@ export const Skills = () => {
                 <Image
                   src="/../public/skills/jest-logo.png"
                   alt="/"
-                  width="48"
-                  height="48"
+                  width="55"
+                  height="55"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -371,6 +371,61 @@ export const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className="uppercase">Storybook</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SKILL SUBHEADER: GRAPHIC DESIGN */}
+        <p className="uppercase tracking-widest text-[#5C6CFF] py-6">
+          Graphic Design
+        </p>
+        {/* GRID SETTINGS FOR GRAPHIC DESIGN */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* PHOTOSHOP SKILL */}
+          <div className="p-8 shadow-md rounded-xl border-2 border-[#84FFC9] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/photoshop-logo.png"
+                  alt="/"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Photoshop</h3>
+              </div>
+            </div>
+          </div>
+        {/* ILLUSTRATOR SKILL */}
+        <div className="p-8 shadow-md rounded-xl border-2 border-[#AAB2FF] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/illustator-logo.png"
+                  alt="/"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">Illustrator</h3>
+              </div>
+            </div>
+          </div>
+          {/* INDESIGN SKILL */}
+        <div className="p-8 shadow-md rounded-xl border-2 border-[#ECA0FF] hover:scale-110 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/../public/skills/indesign-logo.png"
+                  alt="/"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="uppercase">InDesign</h3>
               </div>
             </div>
           </div>
