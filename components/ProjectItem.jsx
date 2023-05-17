@@ -9,7 +9,7 @@ const ProjectItem = ({title, backgroundImage, projectURL, description, stack}) =
     <Image
       className="rounded-xl group-hover:opacity-5"
       src={backgroundImage}
-      alt="Sifter Project"
+      alt="Projects"
       width="800"
       height="600"
     />

@@ -15,7 +15,7 @@ const Projects = () => {
         <h2 className="py-4">Projects</h2>
         {/* GRID SETTINGS FOR PROJECTS */}
         <div className="grid md:grid-cols-2 gap-10">
-          {/* SIFTER PROJECT...NOTE: MAY WANT TO FORK & LINK TO GITHUB INSTEAD? */}
+          {/* SIFTER PROJECT...NOTE: FORK & LINK TO GITHUB, TRIAL IS OVER */}
           <ProjectItem
             title="Sifter"
             backgroundImage={sifterImage}
