@@ -12,7 +12,7 @@ const Projects = () => {
         <p className="uppercase tracking-widest text-[#5C6CFF]">
           What I&apos;ve been Building Lately
         </p>
-        <h2 className="py-4">Projects</h2>
+        <h2 className="pt-4 pb-8">Projects</h2>
         {/* GRID SETTINGS FOR PROJECTS */}
         <div className="grid md:grid-cols-2 gap-10">
           {/* SIFTER PROJECT...NOTE: FORK & LINK TO GITHUB, TRIAL IS OVER */}
