@@ -32,7 +32,7 @@ const About = () => {
             Check out some of my recent projects.
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-md shadow-gray-300 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
           <Image
             className="rounded-xl"
             src="/../public/about/paige-profile-600x600.jpg"

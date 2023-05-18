@@ -7,11 +7,11 @@ import simplicityImage from "../public/design/simplicity-virtual-circle-final.jp
 const Design = () => {
   return (
     <div className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto px-2 py-16 ">
         <p className="uppercase tracking-widest text-[#5C6CFF]">
           Logos I&apos;ve made lately
         </p>
-        <h2 className="py-4">Graphic Design</h2>
+        <h2 className="pt-4 pb-8">Graphic Design</h2>
         {/* GRID SETTINGS FOR GRAPHIC DESIGN */}
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
           {/* SIMMER & CO LOGO */}

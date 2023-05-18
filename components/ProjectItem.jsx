@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ProjectItem = ({title, backgroundImage, projectURL, description, stack}) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-md shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF]">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-md shadow-gray-300 border-2 border-gray-300 rounded-xl p-4 group hover:bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF]">
     {/* PROJECT */}
     <Image
       className="rounded-xl group-hover:opacity-5"
