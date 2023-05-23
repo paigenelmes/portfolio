@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-6 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-10 flex items-center">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase tracking-widest text-[#5C6CFF]">
@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-md shadow-gray-300 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
+        <div className="w-full py-4 h-auto m-auto flex items-center justify-center hover:scale-105 ease-in duration-300">
           <Image
             className="rounded-xl"
             src="/../public/about/paige-profile-600x600.jpg"

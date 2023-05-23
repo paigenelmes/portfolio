@@ -8,7 +8,7 @@ import tweeterImage from "../public/projects/tweeter-project.png";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto p-10">
         <p className="uppercase tracking-widest text-[#5C6CFF]">
           What I&apos;ve been Building Lately
         </p>
@@ -20,8 +20,7 @@ const Projects = () => {
             title="Sifter"
             backgroundImage={sifterImage}
             projectURL="https://github.com/paigenelmes/Sifter"
-            description="Sifter is a recipe HTML parser that returns a formatted recipe
-            card from a URL. A group project created by Cassandra Keddis, Chelsea Dwarika, Liam Naylor and Paige Nelmes."
+            description="A recipe parser app. Created by Cassandra Keddis, Chelsea Dwarika, Liam Naylor and Paige Nelmes."
             stack="Tech stack: React, NextJS, MUI, Supabase, Vercel"
           ></ProjectItem>
               {/* SCHEDULER PROJECT */}
@@ -29,7 +28,7 @@ const Projects = () => {
               title="Scheduler"
               backgroundImage={schedulerImage}
               projectURL="https://github.com/paigenelmes/scheduler"
-              description="Scheduler is a single-page app that allows users to book interviews."
+              description="A single-page app that allows users to book interviews."
               stack="Tech stack: React, Axios, Storybook, Jest, Cypress"
             ></ProjectItem>
           {/* MYVAULT PROJECT */}
@@ -37,7 +36,7 @@ const Projects = () => {
             title="MyVault"
             backgroundImage={myVaultImage}
             projectURL="https://github.com/paigenelmes/myvault"
-            description="MyVault is a simple password manager. A group project created by Alric Fernandes, Sarah Campbell, John Ross and Paige Nelmes."
+            description="A simple password manager. Created by Alric Fernandes, Sarah Campbell, John Ross and Paige Nelmes."
             stack="Tech Stack: JS, HTML, CSS, Sass, JSON, Bootstrap, PostgreSQL, Express, jQuery"
           ></ProjectItem>
           {/* TWEETER PROJECT */}
@@ -45,7 +44,7 @@ const Projects = () => {
             title="Tweeter"
             backgroundImage={tweeterImage}
             projectURL="https://github.com/paigenelmes/tweeter"
-            description="Tweeter is a simple, single-page Twitter clone with a responsive layout."
+            description="A simple, single-page Twitter clone with a responsive layout."
             stack="Tech Stack: HTML, CSS, JS, jQuery, Ajax"
           ></ProjectItem>
         </div>
