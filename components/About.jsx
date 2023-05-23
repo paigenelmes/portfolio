@@ -12,22 +12,10 @@ const About = () => {
           </p>
           <h2 className="py-4">About Me</h2>
           <p className="py-2 text-[#5C5A5E]">
-            CHANGE THIS LATER. I am a Lighthouse Labs graduate with a background
-            in Graphic Design. A detail-oriented problem solver who specializes
-            in visual aesthetics. Passionate about creating projects that run
-            smoothly and look beautiful.
+            I have always been interested in technology and creative pursuits. I earned a Graphic Design diploma from UFV in 2016 and have been working in the industry ever since. While working as a Graphic Designer, I dipped my toe into the world of web design. I learned some CSS and front-end development on the job. It was fun, but I wanted to dive deeper! 
           </p>
           <p className="py-2 text-[#5C5A5E]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            vulputate felis eu felis accumsan, sed finibus metus dictum.
-            Suspendisse eget ornare eros. In fringilla, dui eget efficitur
-            luctus, erat lacus pharetra nunc, vitae mattis nisi magna vel quam.
-            Integer eu turpis elit. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Mauris sed eros at sapien
-            venenatis lobortis a eget risus. Vivamus porttitor ipsum ut sapien
-            consectetur tincidunt. Donec ultrices, ligula eget commodo luctus,
-            ante leo tempus nunc, eget suscipit diam diam non eros. Curabitur et
-            neque eros.
+            In 2022, I decided to expand my skillset and learn how to code. So I signed up for the Lighthouse Labs Web Development program and got to work! I learned so much and met a lot of amazing people. After graduation, I wanted to keep learning new technology, so I built this website with NextJS and Tailwind. I&apos;m so excited for this new chapter in my career. I plan to keep on learning and creating, every day!
           </p>
           <Link href="/#projects">
             <p className="py-2 text-[#5C6CFF] underline cursor-pointer">
