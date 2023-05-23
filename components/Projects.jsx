@@ -15,13 +15,13 @@ const Projects = () => {
         <h2 className="pt-4 pb-8">Projects</h2>
         {/* GRID SETTINGS FOR PROJECTS */}
         <div className="grid md:grid-cols-2 gap-10">
-          {/* SIFTER PROJECT...NOTE: FORK & LINK TO GITHUB, TRIAL IS OVER */}
+          {/* SIFTER PROJECT */}
           <ProjectItem
             title="Sifter"
             backgroundImage={sifterImage}
-            projectURL="https://lighthouse-sifter.vercel.app/login"
+            projectURL="https://github.com/paigenelmes/Sifter"
             description="Sifter is a recipe HTML parser that returns a formatted recipe
-            card from a user-provided URL."
+            card from a URL. A group project created by Cassandra Keddis, Chelsea Dwarika, Liam Naylor and Paige Nelmes."
             stack="Tech stack: React, NextJS, MUI, Supabase, Vercel"
           ></ProjectItem>
               {/* SCHEDULER PROJECT */}
@@ -32,12 +32,12 @@ const Projects = () => {
               description="Scheduler is a single-page app that allows users to book interviews."
               stack="Tech stack: React, Axios, Storybook, Jest, Cypress"
             ></ProjectItem>
-          {/* MYVAULT PROJECT...NOTE: FORK & UPDATE GITHUB URL LATER */}
+          {/* MYVAULT PROJECT */}
           <ProjectItem
             title="MyVault"
             backgroundImage={myVaultImage}
-            projectURL="https://github.com/alricf/node-skeleton"
-            description="MyVault is a password manager that organizes all your passwords and keeps your sensitive info safe."
+            projectURL="https://github.com/paigenelmes/myvault"
+            description="MyVault is a simple password manager. A group project created by Alric Fernandes, Sarah Campbell, John Ross and Paige Nelmes."
             stack="Tech Stack: JS, HTML, CSS, Sass, JSON, Bootstrap, PostgreSQL, Express, jQuery"
           ></ProjectItem>
           {/* TWEETER PROJECT */}

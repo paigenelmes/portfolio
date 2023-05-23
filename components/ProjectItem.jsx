@@ -24,9 +24,9 @@ const ProjectItem = ({title, backgroundImage, projectURL, description, stack}) =
       <p className="pb-4 pt-2 text-white text-center">
         {stack}
       </p>
-      <Link href={projectURL}>
+      <Link href={projectURL} target="_blank" rel="noopener noreferrer">
         <p className="text-center py-3 rounded-lg bg-white text-[#363537] font-bold text-lg cursor-pointer">
-          View Project
+          View Project on Github
         </p>
       </Link>
     </div>

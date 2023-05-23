@@ -9,7 +9,7 @@ function Main() {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase tracking-widest text-[#5C6CFF]">
-            NICE TO MEET YOU
+            Hello there
           </p>
           <h1 className="py-4 text-[#363537]">
             My name is{" "}
