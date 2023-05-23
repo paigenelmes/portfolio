@@ -7,7 +7,7 @@ import tweeterImage from "../public/projects/tweeter-project.png";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="uppercase tracking-widest text-[#5C6CFF]">
           What I&apos;ve been Building Lately

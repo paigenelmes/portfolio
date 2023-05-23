@@ -17,12 +17,14 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-35 shadow-md z-[100] bg-white">
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 mt-3 mb-3">
-        <Image
-          src="/../public/pn-logo-500x338.png"
-          alt="/"
-          width="125"
-          height="85"
-        ></Image>
+        <Link href="/">
+          <Image
+            src="/../public/pn-logo-500x338.png"
+            alt="/"
+            width="125"
+            height="85"
+          ></Image>
+          </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -30,27 +32,27 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-med uppercase hover:text-[#5C6CFF]">
                 About
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-med uppercase hover:text-[#5C6CFF]">
                 Skills
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-med uppercase hover:text-[#5C6CFF]">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#design">
               <li className="ml-10 text-med uppercase hover:text-[#5C6CFF]">
                 Graphic Design
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-med uppercase hover:text-[#5C6CFF]">
                 Contact
               </li>
@@ -80,12 +82,14 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/pn-logo-500x338.png"
-                width="83"
-                height="46"
-                alt="/"
-              />
+              <Link href="/">
+                <Image
+                  src="/../public/pn-logo-500x338.png"
+                  width="83"
+                  height="46"
+                  alt="/"
+                />
+              </Link>
               {/* Toggle nav when clicking close button */}
               <div
                 onClick={handleNav}
@@ -103,22 +107,22 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li className="py-4 text-med">Home</li>
+                <li onClick={()=> setNav(false)} className="py-4 text-med">Home</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-med">About</li>
+              <Link href="/#about">
+                <li onClick={()=> setNav(false)} className="py-4 text-med">About</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-med">Skills</li>
+              <Link href="/#skills">
+                <li onClick={()=> setNav(false)} className="py-4 text-med">Skills</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-med">Projects</li>
+              <Link href="/#projects">
+                <li onClick={()=> setNav(false)} className="py-4 text-med">Projects</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-med">Graphic Design</li>
+              <Link href="/#design">
+                <li onClick={()=> setNav(false)} className="py-4 text-med">Graphic Design</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-med">Contact</li>
+              <Link href="/#contact">
+                <li onClick={()=> setNav(false)} className="py-4 text-med">Contact</li>
               </Link>
             </ul>
             <div className="pt-20">
