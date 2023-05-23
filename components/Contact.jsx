@@ -2,8 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 function Contact() {
@@ -29,32 +28,40 @@ function Contact() {
                 ></Image>
               </div>
               <div>
-                <h2 className="pt-4 pb-2 text-[#363537] text-center">
+                <h2 className="py-6 text-[#363537] text-center">
                   Paige Nelmes
                 </h2>
                 <h4 className="text-[#5C6CFF] uppercase tracking-wider text-center">
                   Full Stack Developer
                 </h4>
-                <p className="text-[#363537] text-center py-4">
+                <p className="text-[#363537] text-center py-6">
                   Open to freelance or full-time opportunities. <br /> Contact
                   me and let&apos;s chat!
                 </p>
               </div>
               <div>
                 <div>
-                  <div className="flex items-center justify-evenly m-auto py-4">
-                    <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
-                      <FaLinkedinIn className="fill-white scale-125"></FaLinkedinIn>
-                    </div>
-                    <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
-                      <FaGithub className="fill-white scale-125"></FaGithub>
-                    </div>
-                    <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
-                      <AiOutlineMail className="fill-white scale-125"></AiOutlineMail>
-                    </div>
-                    <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
-                      <BsFillPersonLinesFill className="fill-white scale-125"></BsFillPersonLinesFill>
-                    </div>
+                  <div className="flex items-center justify-evenly m-auto py-8">
+                    <Link href="https://www.linkedin.com/in/pnelmes/" target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                        <FaLinkedinIn className="fill-white scale-125"></FaLinkedinIn>
+                      </div>
+                    </Link>
+                    <Link href="https://github.com/paigenelmes" target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                        <FaGithub className="fill-white scale-125"></FaGithub>
+                      </div>
+                    </Link>
+                    <Link href="https://www.facebook.com/pnelmes.webdev/" target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                        <FaFacebookF className="fill-white scale-125"></FaFacebookF>
+                      </div>
+                    </Link>
+                    <a href="mailto:pnelmes.webdev@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                        <AiOutlineMail className="fill-white scale-125"></AiOutlineMail>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
