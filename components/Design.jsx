@@ -6,8 +6,8 @@ import simplicityImage from "../public/design/simplicity-virtual-circle-final.jp
 
 const Design = () => {
   return (
-    <div id="design" className="w-full">
-      <div className="max-w-[1240px] mx-auto p-10">
+    <div id="design" className="w-full p-10">
+      <div className="max-w-[1240px] mx-auto">
         <p className="uppercase tracking-widest text-[#5C6CFF]">
           Logos I&apos;ve made lately
         </p>
