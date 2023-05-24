@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 mt-3 mb-3">
         <Link href="/">
           <Image
-            src="/../public/pn-logo-500x338.png"
+            src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/pn-logo-500x338.png"
             alt="/"
             width="125"
             height="85"

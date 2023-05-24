@@ -21,7 +21,7 @@ function Contact() {
               <div>
                 <Image
                   className="rounded-xl"
-                  src="/../public/about/me-noborder.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/about/me-noborder.png"
                   width="600"
                   height="600"
                   alt="Paige Cartoon Pic"
