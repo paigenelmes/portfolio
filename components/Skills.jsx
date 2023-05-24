@@ -17,7 +17,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/javascript-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/javascript-logo.png"
                   alt="JavaScript"
                   width="48"
                   height="48"
@@ -34,7 +34,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/html-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/html-logo.png"
                   alt="HTML"
                   width="48"
                   height="48"
@@ -51,7 +51,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/css-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/css-logo.png"
                   alt="CSS"
                   width="40"
                   height="40"
@@ -68,7 +68,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/ruby-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/ruby-logo.png"
                   alt="Ruby"
                   width="48"
                   height="48"
@@ -85,7 +85,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/sql-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/sql-logo.png"
                   alt="SQL"
                   width="64"
                   height="64"
@@ -108,7 +108,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/react-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/react-logo.png"
                   alt="React"
                   width="48"
                   height="48"
@@ -124,7 +124,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/nextjs-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/nextjs-logo.png"
                   alt="NextJS"
                   width="64"
                   height="64"
@@ -140,7 +140,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/node-js-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/node-js-logo.png"
                   alt="NodeJS"
                   width="64"
                   height="64"
@@ -156,7 +156,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/tailwind-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/tailwind-logo.png"
                   alt="Tailwind CSS"
                   width="48"
                   height="48"
@@ -172,7 +172,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/mui-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/mui-logo.png"
                   alt="MUI"
                   width="48"
                   height="48"
@@ -188,7 +188,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/rails-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/rails-logo.png"
                   alt="Rails"
                   width="64"
                   height="64"
@@ -204,7 +204,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/express-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/express-logo.png"
                   alt="Express"
                   width="100"
                   height="100"
@@ -220,7 +220,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/ajax-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/ajax-logo.png"
                   alt="Ajax"
                   width="64"
                   height="64"
@@ -236,7 +236,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/ejs-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/ejs-logo.png"
                   alt="EJS"
                   width="34"
                   height="34"
@@ -252,7 +252,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/axios-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/axios-logo.png"
                   alt="Axios"
                   width="100"
                   height="100"
@@ -268,7 +268,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/jquery-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/jquery-logo.png"
                   alt="JQuery"
                   width="90"
                   height="90"
@@ -291,7 +291,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/git-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/git-logo.png"
                   alt="Git"
                   width="64"
                   height="64"
@@ -307,7 +307,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/postgresql-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/postgresql-logo.png"
                   alt="PostgreSQL"
                   width="48"
                   height="48"
@@ -328,7 +328,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/jest-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/jest-logo.png"
                   alt="Jest"
                   width="55"
                   height="55"
@@ -345,7 +345,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/cypress-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/cypress-logo.png"
                   alt="Cypress"
                   width="90"
                   height="90"
@@ -361,7 +361,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/storybook-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/storybook-logo.png"
                   alt="Storybook"
                   width="100"
                   height="100"
@@ -384,7 +384,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/photoshop-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/photoshop-logo.png"
                   alt="Photoshop"
                   width="48"
                   height="48"
@@ -400,7 +400,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/illustator-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/illustator-logo.png"
                   alt="Illustrator"
                   width="48"
                   height="48"
@@ -416,7 +416,7 @@ export const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img
-                  src="/../public/skills/indesign-logo.png"
+                  src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/skills/indesign-logo.png"
                   alt="InDesign"
                   width="48"
                   height="48"
