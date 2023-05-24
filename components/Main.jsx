@@ -6,7 +6,7 @@ import Link from "next/link";
 function Main() {
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center p-10 pt-44">
+      <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center p-10 pt-56 md:pt-44">
         <div>
           <p className="uppercase tracking-widest text-[#5C6CFF]">
             Hello there
