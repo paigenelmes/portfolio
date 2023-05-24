@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const About = () => {
@@ -12,10 +11,21 @@ const About = () => {
           </p>
           <h2 className="py-4">About Me</h2>
           <p className="py-2 text-[#5C5A5E]">
-            I have always been interested in technology and creative pursuits. I earned a Graphic Design diploma from UFV in 2016 and have been working in the industry ever since. While working as a Graphic Designer, I dipped my toe into the world of web design. I learned some CSS and front-end development on the job. It was fun, but I wanted to dive deeper! 
+            I have always been interested in technology and creative pursuits. I
+            earned a Graphic Design diploma from UFV in 2016 and have been
+            working in the industry ever since. While working as a Graphic
+            Designer, I dipped my toe into the world of web design. I learned
+            some CSS and front-end development on the job. It was fun, but I
+            wanted to dive deeper!
           </p>
           <p className="py-2 text-[#5C5A5E]">
-            In 2022, I decided to expand my skillset and learn how to code. So I signed up for the Lighthouse Labs Web Development program and got to work! I learned so much and met a lot of amazing people. After graduation, I wanted to keep learning new technology, so I built this website with NextJS and Tailwind. I&apos;m so excited for this new chapter in my career. I plan to keep on learning and creating, every day!
+            In 2022, I decided to expand my skillset and learn how to code. So I
+            signed up for the Lighthouse Labs Web Development program and got to
+            work! I learned so much and met a lot of amazing people. After
+            graduation, I wanted to keep learning new technology, so I built
+            this website with NextJS and Tailwind. I&apos;m so excited for this
+            new chapter in my career. I plan to keep on learning and creating,
+            every day!
           </p>
           <Link href="/#projects">
             <p className="py-2 text-[#5C6CFF] underline cursor-pointer">

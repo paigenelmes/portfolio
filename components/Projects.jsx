@@ -23,14 +23,14 @@ const Projects = () => {
             description="A recipe parser app. Created by Cassandra Keddis, Chelsea Dwarika, Liam Naylor and Paige Nelmes."
             stack="Tech stack: React, NextJS, MUI, Supabase, Vercel"
           ></ProjectItem>
-              {/* SCHEDULER PROJECT */}
-              <ProjectItem
-              title="Scheduler"
-              backgroundImage={schedulerImage}
-              projectURL="https://github.com/paigenelmes/scheduler"
-              description="A single-page app that allows users to book interviews."
-              stack="Tech stack: React, Axios, Storybook, Jest, Cypress"
-            ></ProjectItem>
+          {/* SCHEDULER PROJECT */}
+          <ProjectItem
+            title="Scheduler"
+            backgroundImage={schedulerImage}
+            projectURL="https://github.com/paigenelmes/scheduler"
+            description="A single-page app that allows users to book interviews."
+            stack="Tech stack: React, Axios, Storybook, Jest, Cypress"
+          ></ProjectItem>
           {/* MYVAULT PROJECT */}
           <ProjectItem
             title="MyVault"

@@ -27,24 +27,40 @@ function Main() {
             look beautiful.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
-            <Link href="https://www.linkedin.com/in/pnelmes/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.linkedin.com/in/pnelmes/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                 <FaLinkedinIn className="fill-white scale-125"></FaLinkedinIn>
               </div>
             </Link>
-            <Link href="https://github.com/paigenelmes" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://github.com/paigenelmes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                 <FaGithub className="fill-white scale-125"></FaGithub>
               </div>
             </Link>
-            <Link href="https://www.facebook.com/pnelmes.webdev/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.facebook.com/pnelmes.webdev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                 <FaFacebookF className="fill-white scale-125"></FaFacebookF>
               </div>
             </Link>
-            <a href="mailto:pnelmes.webdev@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a
+              href="mailto:pnelmes.webdev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
-                <AiOutlineMail className="fill-white scale-125"></AiOutlineMail>  
+                <AiOutlineMail className="fill-white scale-125"></AiOutlineMail>
               </div>
             </a>
           </div>
