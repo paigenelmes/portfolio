@@ -38,7 +38,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                     <FaLinkedinIn className="fill-white scale-125"></FaLinkedinIn>
                   </div>
                 </Link>
@@ -47,7 +47,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                     <FaGithub className="fill-white scale-125"></FaGithub>
                   </div>
                 </Link>
@@ -56,7 +56,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                     <FaFacebookF className="fill-white scale-125"></FaFacebookF>
                   </div>
                 </Link>
@@ -65,7 +65,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-150 ease-in duration-300">
                     <AiOutlineMail className="fill-white scale-125"></AiOutlineMail>
                   </div>
                 </a>
