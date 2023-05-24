@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-auto p-10 pt-30">
+    <div id="skills" className="w-full lg:h-auto p-10 pt-32">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="py-4">Skills</h2>
         {/* SKILL SUBHEADER: LANGUAGES */}
