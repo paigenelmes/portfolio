@@ -7,7 +7,7 @@ export const Skills = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="py-4">Skills</h2>
         {/* SKILL SUBHEADER: LANGUAGES */}
-        <p className="uppercase tracking-widest text-[#5C6CFF] py-6">
+        <p className="uppercase tracking-widest text-[#5C6CFF] py-4">
           Languages
         </p>
         {/* GRID SETTINGS FOR LANGUAGES */}
