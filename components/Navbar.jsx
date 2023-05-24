@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   //State for nav, default false
@@ -137,25 +135,6 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-20">
-              <p className="uppercase tracking-widest text-[#5C6CFF]">
-                Get in Touch
-              </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-110 ease-in duration-300">
-                  <FaLinkedinIn className="fill-white"></FaLinkedinIn>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-110 ease-in duration-300">
-                  <FaGithub className="fill-white"></FaGithub>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-110 ease-in duration-300">
-                  <AiOutlineMail className="fill-white"></AiOutlineMail>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-gradient-to-t from-[#84FFC9] via-[#AAB2FF] to-[#ECA0FF] hover:scale-110 ease-in duration-300">
-                  <BsFillPersonLinesFill className="fill-white"></BsFillPersonLinesFill>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
