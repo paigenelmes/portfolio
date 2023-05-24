@@ -24,13 +24,13 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full py-4 h-auto m-auto flex items-center justify-center hover:scale-105 ease-in duration-300">
-          <Image
+          <img
             className="rounded-xl"
             src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/about/paige-profile-600x600.jpg"
             width="600"
             height="600"
             alt="Paige Profile Pic"
-          ></Image>
+          ></img>
         </div>
       </div>
     </div>

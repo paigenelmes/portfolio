@@ -18,12 +18,12 @@ const Navbar = () => {
     <div className="fixed w-full h-35 shadow-md z-[100] bg-white">
       <div className="flex justify-between items-center w-full h-full px-12 2xl:px-16 mt-3 mb-3">
         <Link href="/">
-          <Image
+          <img
             src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/pn-logo-500x338.png"
             alt="/"
             width="125"
             height="85"
-          ></Image>
+          ></img>
           </Link>
         <div>
           <ul className="hidden md:flex">

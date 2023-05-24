@@ -19,13 +19,13 @@ function Contact() {
           <div className="border-2 border-gray-300 col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-300 rounded-xl p-2 bg-white">
             <div className="lg:p-2 h-full">
               <div>
-                <Image
+                <img
                   className="rounded-xl"
                   src="https://raw.githubusercontent.com/paigenelmes/portfolio/main/public/about/me-noborder.png"
                   width="600"
                   height="600"
                   alt="Paige Cartoon Pic"
-                ></Image>
+                ></img>
               </div>
             </div>
           </div>
